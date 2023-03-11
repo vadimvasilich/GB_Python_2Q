@@ -6,9 +6,8 @@
 num = int(input('Введите трехзначное число: '))
 
 temp1 = num % 10
-temp2 = num // 10
-temp3 = temp2 % 10
-temp4 = num // 100
+temp2 = num // 10 % 10
+temp3 = num // 100
 
-sum = temp1 + temp3+ temp4
+sum = temp1 + temp2+ temp3
 print(f'Сумма цифр равна: {sum}')
