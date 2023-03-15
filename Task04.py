@@ -8,7 +8,7 @@
 # 60 -> 10  40  10
 
 num = int(input('Введите количество журавликов: '))
-pet = num / 6
+pet = num // 6
 ser = pet
 kat = (pet + ser) * 2
 
