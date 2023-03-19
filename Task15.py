@@ -13,7 +13,7 @@
 # Input:	5 -> 5 1 6 5 9
 # Output:	1_1 9_4
 
-count_wm = int(input('--> '))
+count_wm = int(input('Введите количество арбузов: '))
 min_wm = int(input('wm--> '))
 max_wm = min_wm
 
