@@ -14,16 +14,10 @@ for i in range(0, number):
 
 digit = int(input('Введите число для проверки: '))
 
+diff_min = our_list[0] # будем сравнивать с первым элементом
 
-# for i in number: #range(len(our_list)):
-
-
-diff_min = our_list[0]
 for j in our_list:
-        if abs(j - digit) < abs(diff_min - digit):
+        if abs(j - digit) < abs(diff_min - digit): # берем по модулю, так как нужно идти в обе стороны от искомого числа
               diff_min = j
-
-
-
         
 print(diff_min)

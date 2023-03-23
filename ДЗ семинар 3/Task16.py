@@ -10,9 +10,9 @@
 
 number = int(input('Введите количество элементов: '))
 our_list = []
-# for i in range(0, number):
-#     our_list.append(int(input('Введите элемент: ')))
-# print(*our_list) # для наглядности
+for i in range(0, number):
+    our_list.append(int(input('Введите элемент: ')))
+print(*our_list) # для наглядности
 
 digit = int(input('Введите число для проверки: '))
 count = 0
