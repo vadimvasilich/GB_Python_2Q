@@ -20,10 +20,13 @@ for i in range(0, n_list):
 
 for i in range(0, m_list):
     our_list_2.append(int(input('Введите элемент второго набора: ')))
+
+# для наглядности
 print(our_list, end=' ')
 print()
 print(our_list_2, end=' ')
 print()
 
+# отсортировываем по возрастанию пересечение множеств
 new_set = sorted(set(our_list).intersection(set(our_list_2)))
 print(new_set, end=' ')
