@@ -14,6 +14,7 @@ def sum_number(num1, num2):
     
 a = int(input('Введите число 1: '))
 b = int(input('Введите число 2: '))
+
 if a > 0 and b > 0:
     print(sum_number(a, b))
 else: print('Ошибка ввода!')
