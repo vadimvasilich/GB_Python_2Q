@@ -6,17 +6,6 @@
 # Ввод: 7 2 5
 # Вывод: 7 9 11 13 15
 
-# number = int(input('Введите первый элемент арифметической прогрессии: '))
-# step_number = int(input('Введите шаг арифметической прогрессии: '))
-# quantity = int(input('Введите количество элементов арифметической прогрессии: '))
-
-# for i in range(1, quantity + 1):
-#     list_dig = []
-#     list_dig.append(int(number + (i-1) * step_number)) 
-    
-#     print(*list_dig, end=' ')
-
-
 number = int(input('Введите первый элемент арифметической прогрессии: '))
 step_number = int(input('Введите шаг арифметической прогрессии: '))
 quantity = int(input('Введите количество элементов арифметической прогрессии: '))

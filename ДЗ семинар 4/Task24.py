@@ -17,9 +17,7 @@
 number = int(input('Введите количество кустов на грядке: '))
 list_dig = []
 for i in range(0, number):
-    list_dig.append(int(input('Введите количество ягод на кусте: ')))
-
-print(list_dig)    
+    list_dig.append(int(input('Введите количество ягод на кусте: ')))   
 
 sum_berry = []
 

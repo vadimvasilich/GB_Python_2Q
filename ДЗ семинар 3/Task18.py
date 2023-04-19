@@ -7,6 +7,7 @@
 # 6
 # -> 5
 
+
 number = int(input('Введите количество элементов: '))
 our_list = []
 for i in range(0, number):

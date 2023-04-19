@@ -10,8 +10,6 @@ def row_number(num1, num2):
     else: 
         return num1 * row_number(num1, num2 - 1); 
     
-
-
 a = int(input('Введите число :'))
 b = int(input('Введите степень числа: '))
 print(row_number(a, b))
